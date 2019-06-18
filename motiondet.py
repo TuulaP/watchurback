@@ -8,7 +8,12 @@ import os
 import re
 import random
 import tensorflow as tf
+
+#   python -m pip install tensorflow_hub  <--!
 import tensorflow_hub as hub
+# __import__('tensoflow-hub')
+#import importlib
+#hub = importlib.import_module('tensorflow_hub')
 
 # original from: https://github.com/tensorflow/hub/blob/master/examples/colab/action_recognition_with_tf_hub.ipynb
 
