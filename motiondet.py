@@ -110,7 +110,9 @@ for category, sequences in categories.items():
 
 
 # Get a sample cricket video.
-sample_video = load_video(fetch_ucf_video("v_CricketShot_g04_c02.avi"))
+#sample_video = load_video(fetch_ucf_video("v_CricketShot_g04_c02.avi"))
+
+sample_video = load_video('WIN_20190618_09_56_47_Pro.mp4')
 
 print("sample_video is a numpy array of shape %s." % str(sample_video.shape))
 animate(sample_video)
